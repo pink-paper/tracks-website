@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tracks is a playful music game. Place notes, guide tiny Tonelings, and turn movement into music.">
+  <meta name="theme-color" content="#f6f3eb">
+  <title>Tracks — Make music move.</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header>
+      <a class="wordmark" href="./" aria-label="Tracks home"><span class="logo" aria-hidden="true">t</span>tracks<span class="period">.</span></a>
+      <span class="status"><span aria-hidden="true"></span> A little game in the making</span>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="title">
+        <div class="intro">
+          <p class="eyebrow">A playground for your ears</p>
+          <h1 id="title">Make music<br><span>move.</span></h1>
+          <p class="lede">Place notes. Set your Tonelings in motion. Build a little world of music.</p>
+          <a class="button" href="#how-it-works">Meet the Tonelings <span aria-hidden="true">↘</span></a>
+          <p class="aside">Small creatures. Lots of possibilities.</p>
+        </div>
+        <figure class="playground">
+          <svg viewBox="0 0 560 440" role="img" aria-labelledby="scene-title scene-description">
+            <title id="scene-title">A little world of moving music</title>
+            <desc id="scene-description">Three colourful Tonelings follow dotted paths between musical notes and reflectors. An illustration of the idea behind Tracks.</desc>
+            <defs>
+              <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1" fill="#d8d6cb"/></pattern>
+            </defs>
+            <rect x="12" y="12" width="536" height="416" rx="30" fill="#edece2"/>
+            <rect x="12" y="12" width="536" height="416" rx="30" fill="url(#dots)"/>
+            <path d="M65 280 L198 145 L376 322 L485 214" fill="none" stroke="#b5b9aa" stroke-width="2" stroke-dasharray="5 9" stroke-linecap="round"/>
+            <path d="M98 90 L278 270 L442 102" fill="none" stroke="#b5b9aa" stroke-width="2" stroke-dasharray="5 9" stroke-linecap="round"/>
+            <g stroke="#292d3b" stroke-width="8" stroke-linecap="round"><path d="M161 145 H230"/><path d="M347 322 H414"/><path d="M410 92 L456 138"/></g>
+            <g fill="#fffaf0" stroke="#292d3b" stroke-width="2">
+              <circle cx="122" cy="225" r="30"/><circle cx="311" cy="255" r="30"/><circle cx="399" cy="147" r="30"/>
+            </g>
+            <g fill="#292d3b" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text x="122" y="232">C</text><text x="311" y="262">E</text><text x="399" y="154">G</text></g>
+            <g transform="translate(242 191) rotate(12)">
+              <ellipse cy="32" rx="25" ry="7" fill="#232737" opacity=".08"/>
+              <path d="M-26 10 C-30-10-20-31 0-31 S30-10 26 10 Q23 30 0 30 Q-23 30-26 10" fill="#f8c75b" stroke="#292d3b" stroke-width="2.5"/>
+              <circle cx="-9" cy="-2" r="3" fill="#292d3b"/><circle cx="9" cy="-2" r="3" fill="#292d3b"/>
+              <path d="M-5 9 Q0 14 5 9" fill="none" stroke="#292d3b" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(151 97) rotate(-16)">
+              <ellipse cy="28" rx="22" ry="6" fill="#232737" opacity=".08"/>
+              <path d="M-23 8 C-27-10-18-28 0-28 S27-10 23 8 Q21 26 0 26 Q-21 26-23 8" fill="#b1a0e7" stroke="#292d3b" stroke-width="2.5"/>
+              <circle cx="-8" cy="-3" r="2.7" fill="#292d3b"/><circle cx="8" cy="-3" r="2.7" fill="#292d3b"/>
+              <path d="M-4 7 Q0 11 4 7" fill="none" stroke="#292d3b" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(454 246) rotate(19)">
+              <ellipse cy="29" rx="23" ry="6" fill="#232737" opacity=".08"/>
+              <path d="M-24 8 C-28-11-19-29 0-29 S28-11 24 8 Q22 27 0 27 Q-22 27-24 8" fill="#a1cdb5" stroke="#292d3b" stroke-width="2.5"/>
+              <circle cx="-8" cy="-3" r="2.7" fill="#292d3b"/><circle cx="8" cy="-3" r="2.7" fill="#292d3b"/>
+              <path d="M-4 7 Q0 11 4 7" fill="none" stroke="#292d3b" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <g fill="#666b62" font-family="system-ui, sans-serif" font-size="12"><text x="40" y="395">a note + a little nudge = a new idea</text></g>
+            <g fill="#bb754c" font-family="system-ui, sans-serif" font-size="30"><text x="320" y="103" transform="rotate(12 320 103)">♪</text><text x="70" y="342" transform="rotate(-12 70 342)">♫</text></g>
+          </svg>
+          <figcaption>A sketch of the idea. The real playground is in the app.</figcaption>
+        </figure>
+      </section>
+      <section id="how-it-works" class="how" aria-labelledby="how-title">
+        <div class="section-heading"><p class="eyebrow">Meet the Tonelings</p><h2 id="how-title">Little movers.<br>Music makers.</h2></div>
+        <div class="explanation">
+          <p>Tonelings travel through the world you build, playing notes as they touch them. Arrange the space, change their paths, and listen to what happens.</p>
+          <ol>
+            <li><span class="step">01</span><div><h3>Place your notes</h3><p>Give your world its sounds.</p></div></li>
+            <li><span class="step">02</span><div><h3>Shape their journey</h3><p>Use reflectors to send Tonelings in new directions.</p></div></li>
+            <li><span class="step">03</span><div><h3>Listen. Tinker. Repeat.</h3><p>Turn a simple loop into something of your own.</p></div></li>
+          </ol>
+        </div>
+      </section>
+      <section class="coming" aria-labelledby="coming-title"><span class="spark" aria-hidden="true">✳</span><div><h2 id="coming-title">Just getting started.</h2><p>Tracks is in early development. This is its little home on the web.<br>More to share as it grows.</p></div></section>
+    </main>
+    <footer><span>Tracks <span aria-hidden="true">·</span> A music game with Tonelings.</span><a href="https://github.com/pink-paper/tracks-website">Website source <span aria-hidden="true">↗</span></a></footer>
+  </div>
+</body>
+</html>
