@@ -9,6 +9,9 @@ The entry page follows a saved language choice, then the browser's preferred sup
 language, with English as the fallback. The complete pages and language links also
 work without JavaScript. Language preference uses local storage when available;
 blocked storage does not prevent navigation.
+Both languages include section navigation, a mobile quick-start guide, native
+expandable FAQs, availability information and links to public GitHub feedback forms.
+The guide keeps the app's current English control labels in both translations.
 
 ## Publish with GitHub Pages
 
@@ -35,6 +38,8 @@ Subsequent pushes to `main` publish updates automatically.
   `firsttrack3` arrangement, using the app's actual playback canvas. It is an
   offline app render, not a phone recording.
 - `assets/android-export.jpg`: Henry's Android screenshot of the track export dialog.
+- `.github/ISSUE_TEMPLATE/`: bilingual forms for app or website bug reports and ideas.
+  Links open GitHub; this website does not submit reports or collect contact details.
 
 Only these finished images are published. App source, APKs and video files are
 not part of this website repository. There is no video embed.

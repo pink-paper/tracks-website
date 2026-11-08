@@ -1,0 +1,39 @@
+name: Report a problem / Problem melden
+description: Something went wrong in Tracks or on the website. Deutsch oder Englisch willkommen.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve Tracks. You can write in English or German. Reports are public; please leave out personal information. / Danke für deine Hilfe. Du kannst auf Deutsch oder Englisch schreiben. Beiträge sind öffentlich; bitte keine persönlichen Daten angeben."
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen? / Wo ist es passiert?
+      options:
+        - Tracks app / Tracks-App
+        - Website
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Schritte zum Nachstellen
+      description: What did you do before the problem appeared? / Was hast du vor dem Problem gemacht?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / Erwartetes und tatsächliches Ergebnis
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device, OS and app version or browser / Gerät, Betriebssystem und App-Version oder Browser
+      placeholder: "For example / Zum Beispiel: Android, Tracks 0.1.25; Firefox on Ubuntu"
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details or screenshot / Weitere Details oder Screenshot
+      description: Optional. Check that attachments contain no personal information. / Optional. Prüfe Anhänge bitte auf persönliche Daten.

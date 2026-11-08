@@ -1,0 +1,28 @@
+name: Suggest an idea / Idee vorschlagen
+description: Share an idea for Tracks or the website. Deutsch oder Englisch willkommen.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: "English or German is welcome. Suggestions are public; please leave out personal information. / Deutsch und Englisch sind willkommen. Vorschläge sind öffentlich; bitte keine persönlichen Daten angeben."
+  - type: dropdown
+    id: area
+    attributes:
+      label: What is your idea about? / Worum geht es?
+      options:
+        - Tracks app / Tracks-App
+        - Website
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Deine Idee
+      description: What would you like to create or do? / Was möchtest du gestalten oder tun?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: How would it help? / Wie würde es dir helfen?
+      description: An example is welcome. / Gerne mit einem Beispiel.
