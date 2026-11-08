@@ -1,30 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-language-entry="auto">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tracks is a playful music game. Place notes, guide tiny Tonelings, and turn movement into music.">
+  <meta name="description" content="Build musical worlds with Tracks. Place notes, guide tiny Tonelings, and turn their journeys into melodies.">
   <meta name="theme-color" content="#f6f3eb">
   <title>Tracks — Make music move.</title>
+  <link rel="canonical" href="https://pink-paper.github.io/tracks-website/en/">
+  <link rel="alternate" hreflang="en" href="https://pink-paper.github.io/tracks-website/en/">
+  <link rel="alternate" hreflang="de" href="https://pink-paper.github.io/tracks-website/de/">
+  <link rel="alternate" hreflang="x-default" href="https://pink-paper.github.io/tracks-website/">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
+  <script src="./language.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <div class="page">
     <header>
-      <a class="wordmark" href="./" aria-label="Tracks home"><span class="logo" aria-hidden="true">t</span>tracks<span class="period">.</span></a>
-      <span class="status"><span aria-hidden="true"></span> A little game in the making</span>
+      <a class="wordmark" href="./en/" aria-label="Tracks home"><span class="logo" aria-hidden="true">t</span>tracks<span class="period">.</span></a>
+      <div class="header-tools"><span class="status"><span aria-hidden="true"></span>A little game in the making</span><nav class="languages" aria-label="Language"><a href="./en/" lang="en" hreflang="en" aria-label="English">EN</a><a href="./de/" lang="de" hreflang="de" aria-label="Deutsch">DE</a></nav></div>
     </header>
     <main id="main">
       <section class="hero" aria-labelledby="title">
-        <div class="intro">
-          <p class="eyebrow">A playground for your ears</p>
-          <h1 id="title">Make music<br><span>move.</span></h1>
-          <p class="lede">Place notes. Set your Tonelings in motion. Build a little world of music.</p>
-          <a class="button" href="#how-it-works">Meet the Tonelings <span aria-hidden="true">↘</span></a>
-          <p class="aside">Small creatures. Lots of possibilities.</p>
-        </div>
+        <div class="intro"><p class="eyebrow">A playground for your ears</p><h1 id="title">Make music<br><span>move.</span></h1><p class="lede">Build a world that plays music. Place notes, guide tiny Tonelings, and turn their journeys into melodies.</p><a class="button" href="#inside">See Tracks in action <span aria-hidden="true">↘</span></a><p class="aside">Start with a few notes. See where they take you.</p></div>
         <figure class="playground">
           <svg viewBox="0 0 560 440" role="img" aria-labelledby="scene-title scene-description">
             <title id="scene-title">A little world of moving music</title>
@@ -67,16 +66,15 @@
       </section>
       <section id="how-it-works" class="how" aria-labelledby="how-title">
         <div class="section-heading"><p class="eyebrow">Meet the Tonelings</p><h2 id="how-title">Little movers.<br>Music makers.</h2></div>
-        <div class="explanation">
-          <p>Tonelings travel through the world you build, playing notes as they touch them. Arrange the space, change their paths, and listen to what happens.</p>
-          <ol>
-            <li><span class="step">01</span><div><h3>Place your notes</h3><p>Give your world its sounds.</p></div></li>
-            <li><span class="step">02</span><div><h3>Shape their journey</h3><p>Use reflectors to send Tonelings in new directions.</p></div></li>
-            <li><span class="step">03</span><div><h3>Listen. Tinker. Repeat.</h3><p>Turn a simple loop into something of your own.</p></div></li>
-          </ol>
-        </div>
+        <div class="explanation"><p>Tonelings play notes as they touch them. You compose by arranging sounds and shaping their paths — a musical idea you can see, hear and keep changing.</p><ol><li><span class="step">01</span><div><h3>Place your notes</h3><p>Choose pitches and instruments. Build a melody or layer several voices.</p></div></li><li><span class="step">02</span><div><h3>Shape their journey</h3><p>Use reflectors to change direction. Add split gates, teleports and areas that change their speed.</p></div></li><li><span class="step">03</span><div><h3>Listen. Tinker. Repeat.</h3><p>Press play, try a different arrangement, and save your track when it clicks.</p></div></li></ol></div>
       </section>
-      <section class="coming" aria-labelledby="coming-title"><span class="spark" aria-hidden="true">✳</span><div><h2 id="coming-title">Just getting started.</h2><p>Tracks is in early development. This is its little home on the web.<br>More to share as it grows.</p></div></section>
+      <section id="inside" class="inside" aria-labelledby="inside-title">
+        <div class="gallery-heading"><div><p class="eyebrow">Inside Tracks</p><h2 id="inside-title">Your space.<br>Your soundtrack.</h2></div><p>From a handful of notes to a whole little musical machine. Here is one of Henry’s tracks, plus a look at sharing it from Android.</p></div>
+        <figure class="app-shot"><a href="./assets/firsttrack3.jpg"><img src="./assets/firsttrack3.jpg" width="1152" height="720" loading="lazy" decoding="async" alt="App-rendered playback of firsttrack3: green Tonelings move between colourful notes, angled reflectors, split gates and speed-changing areas."></a><figcaption>firsttrack3 · A still rendered by Tracks during playback. This is the app’s actual canvas.</figcaption></figure>
+        <div class="detail-grid"><div class="detail-copy"><p class="eyebrow">Made to be played with</p><h2>A small change.<br>A new melody.</h2><p>Move a note, change an instrument, or send a Toneling down a different path. Pause, adjust and replay until the pieces fit together.</p></div><figure class="app-shot export-shot"><a href="./assets/android-export.jpg"><img src="./assets/android-export.jpg" width="1536" height="691" loading="lazy" decoding="async" alt="Tracks on Android with the Export track dialog open, offering Export to Downloads and Copy track JSON."></a><figcaption>Save it. Share it. · The Android export dialog lets you share a complete track file.</figcaption></figure></div>
+        <div class="features"><article><h3>Notes & instruments</h3><p>Choose the pitch, sound and length of each note.</p></article><article><h3>Paths & surprises</h3><p>Combine reflectors, split gates, teleports and speed changes.</p></article><article><h3>Keep your ideas</h3><p>Save tracks and export them to share or keep a backup.</p></article></div>
+      </section>
+      <section class="coming" aria-labelledby="coming-title"><span class="spark" aria-hidden="true">✳</span><div><h2 id="coming-title">Just getting started.</h2><p>Tracks is in early development, with Android as its first home. The app and its sounds are still evolving. More to share as it grows.</p></div></section>
     </main>
     <footer><span>Tracks <span aria-hidden="true">·</span> A music game with Tonelings.</span><a href="https://github.com/pink-paper/tracks-website">Website source <span aria-hidden="true">↗</span></a></footer>
   </div>
