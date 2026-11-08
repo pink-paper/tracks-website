@@ -58,3 +58,6 @@ Git author metadata, including the configured email address, is also public.
 
 No analytics, external font services, third-party scripts or cookies are added by
 this website's code. GitHub Pages processes hosting requests under GitHub's own policies.
+
+When changing `styles.css`, update its content-version query in all three HTML files
+so returning visitors load the matching stylesheet.
